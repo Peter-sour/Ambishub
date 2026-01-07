@@ -1,0 +1,13 @@
+{
+  "name": "ambishub",
+  "productName": "AmbisHub Suite",
+  "version": "1.0.0",
+  "description": "The Engineering Command Center for PENS Students to manage academic, freelance, and bootcamp goals.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-linux": "electron-packager . ambishub --platform=linux --arch=x64 --out=dist/ --electron-version=39.2.7 --overwrite",
+    "make-deb": "electron-installer-debian --src dist/ambishub-linux-x64/ --dest dist/installers/ --arch amd64"
+  },
+  "author": "Malakul"
+}

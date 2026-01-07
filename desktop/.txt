@@ -1,0 +1,4 @@
+sudo dpkg -i dist/installers/ambishub_1.0.0_amd64.deb
+
+sudo apt remove ambishub
+sudo apt remove ambishub
